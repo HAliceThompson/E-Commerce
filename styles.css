@@ -19,6 +19,10 @@ img {
     padding: 20px;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .nav__container {
     width: 100%;
     max-width: 1200px;
@@ -90,6 +94,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
+
  
 h1 {
     font-size: 56px;
@@ -123,6 +128,7 @@ button:active {
 
 .header__img--wrapper {
    padding: 20px; 
+   z-index: 2;
 } 
 
 .container {
@@ -141,9 +147,29 @@ HIGHLIGHTS
 
 */  
 
+#highlight {
+    position: relative;
+}
+
+#highlights:before {
+    background: url('assets/wave.svg');
+    content: "";
+    position: absolute;
+    width: 101vw;
+    height: 12vw;
+    top: 1px;
+    left: 0;
+    z-index: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: translateY(-100%);
+
+}
+
 .highlight__wrapper {
     display: flex;
 }
+
 
 .highlight {
     padding: 0 24px;
@@ -156,11 +182,12 @@ HIGHLIGHTS
 
 .highlight__para {
     text-align: center;
+    max-width: 280px;
 }
 
 .highlight__img {
     border: 2px solid rgba(0, 0, 255, 0.266);
-    padding: 80px;
+    color: blue;
     width: 100px;
     height: 100px;
     display: flex;
