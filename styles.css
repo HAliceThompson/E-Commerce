@@ -147,7 +147,7 @@ HIGHLIGHTS
 
 */  
 
-#highlight {
+#highlights {
     position: relative;
 }
 
@@ -162,9 +162,11 @@ HIGHLIGHTS
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: translateY(-100%);
-
+    transform: translateY(-100%);   
 }
+
+
+
 
 .highlight__wrapper {
     display: flex;
@@ -201,4 +203,14 @@ HIGHLIGHTS
 .highlight__subtitle {
     font-size: 20px;
     margin-bottom: 16px;
+}
+
+*/
+
+FEATURES
+
+*/
+
+#features {
+    background-color: rgba(115, 66, 214, 0.1);
 }
