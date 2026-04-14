@@ -107,11 +107,11 @@ h1 {
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 32px;
-    margin-bottom: 32;
+    margin-bottom: 32px;
     text-align: center;
-} 
+}
 
 button {
     cursor: pointer;
@@ -147,6 +147,10 @@ button:active {
 
 .row__column {
     display: flex;  
+}
+
+.no-cursor {
+    cursor: not-allowed;
 }
 
 
@@ -282,9 +286,44 @@ FEATURES
     color: grey;
 }
 
+/*
+
+Explore
+
 */
 
-EXPLORE
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
+}
+
+
+/*
+
+FOOTER
 
 */
 
+footer {
+    background-color: #242424;
+}
+
+.footer__logo {
+    display: flex;
+}
+.footer__logo--img {
+    width: 160;
+    filter: grayscale(1) invert(1);
+}
+
+.footer__link,
+.footer__copyright {
+    color: #fff;
+}
+
+.footer__list {
+    margin: 24px o;
+}
+.footer__link {
+    
+
+}
