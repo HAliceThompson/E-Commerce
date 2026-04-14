@@ -146,10 +146,9 @@ button:active {
 }
 
 .row__column {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex;  
 }
+
 
 /*
 
@@ -283,6 +282,9 @@ FEATURES
     color: grey;
 }
 
+*/
 
+EXPLORE
 
+*/
 
