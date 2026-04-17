@@ -252,8 +252,7 @@ HIGHLIGHTS
     left: 0;
     z-index: 1;
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
 
 #highlights:before {
@@ -413,7 +412,7 @@ footer {
     .header__description {
         padding: 0 24px;
     }
-    
+
 h1 {
     font-size: 40px;
 }
