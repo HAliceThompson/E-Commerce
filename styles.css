@@ -188,7 +188,7 @@ LANDING
 
 
 header {
-    height: calc(100vh - 80px);
+   min-height: calc(100vh - 80px);
 }
 
 .header__container {
@@ -266,6 +266,7 @@ HIGHLIGHTS
 
 #highlights:after {
     bottom: 1px;
+    background-color: #f0ecfb;
     transform: translateY(100%) rotate(180deg);
 }
 
@@ -315,8 +316,9 @@ FEATURES
 */
 
 #features {
+    height: 1000px;
     padding-top: 8vw;
-     background-color: rgba(115, 66, 214, 0.1);
+    background-color: rgba(115, 66, 214, 0.1);   
 }
 
 .books {
